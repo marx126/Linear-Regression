@@ -3,9 +3,9 @@ import numpy as np
 class LinearRegression:
 
     def __init__(self):
-        self.b = None   # coefficients
-        self.d = None   # number of features
-        self.n = None   # sample size
+        self.b = None # coefficients
+        self.d = None # number of features
+        self.n = None # sample size
 
     def fit(self, X, Y):
 
